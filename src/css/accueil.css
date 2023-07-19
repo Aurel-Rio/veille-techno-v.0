@@ -1,0 +1,40 @@
+/* accueil.css */
+
+.accueil {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .accueil h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .accueil p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .accueil h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .accueil ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .accueil li {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Ajoutez des styles supplémentaires selon vos préférences */
+  

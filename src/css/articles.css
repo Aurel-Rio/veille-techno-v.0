@@ -1,0 +1,48 @@
+/* src/css/articles.css */
+
+.articles-section {
+    margin: 40px 0;
+  }
+  
+  .article {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .article p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Responsiveness - adjust styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .articles-list {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .articles-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  }
+  
